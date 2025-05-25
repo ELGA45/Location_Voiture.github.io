@@ -1,0 +1,11 @@
+<?php
+  session_start();
+  if(isset($_SESSION["connectedUser"])){
+    unset($_SESSION["connectedUser"]);
+    header("Location:accueil.php");
+    exit();
+  }
+  else{
+    header("Location:login.php");
+    exit();
+  }
