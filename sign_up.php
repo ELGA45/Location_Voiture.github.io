@@ -1,4 +1,5 @@
 <?php
+  require_once 'template.php';
   require_once 'utilisateurEntity.php';
   require_once 'utilisateur.php';
 
@@ -29,15 +30,6 @@
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Inscription</title>
-  <link rel="stylesheet" href="style/style2.css">
-</head>
-<body>
   <div class="form-container">
     <h2>Inscription</h2>
     <form action="" method="post">
@@ -68,5 +60,7 @@
       <p><a href="accueil.php">Retour</a></p>
     </div>
   </div>
-</body>
-</html>
+<?php
+  require 'footer.php';
+
+

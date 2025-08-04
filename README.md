@@ -1,5 +1,24 @@
 # Location_Voiture.github.io
-Gestion de location de voiture
+
+# 🚗 Location de Voitures - Application Web
+
+Ce projet est une application web permettant la **gestion de location de voitures**.  
+Il offre la possibilité aux utilisateurs de consulter les véhicules disponibles, effectuer une réservation et gérer leurs locations, tandis que l’administrateur peut gérer le parc automobile et suivre les réservations.
+
+## 📌 Fonctionnalités
+
+- 🔍 **Consultation des véhicules disponibles**
+- 📅 **Réservation en ligne**
+- 👤 **Gestion des clients**
+- 🚗 **Gestion des voitures**
+- 📊 **Suivi des locations en cours et terminées**
+- 🔐 **Authentification utilisateur et administrateur**
+
+## 🛠️ Technologies utilisées
+
+- **Front-end** : HTML5, CSS3, JavaScript
+- **Back-end** : PHP
+- **Base de données** : MySQL
 
 Creation de la base de données(location_voiture) : ✅<br>
 Creation des tables(marque, modèle, voiture, utilisateur) : ✅<br>
@@ -17,5 +36,3 @@ Accueil : ✅<br>
 Connexion utilisateur (login) : ✅<br>
 Inscription utilisateur (sign_up) : ✅<br>
 Style1 (template, accueil, footer, ajout, liste, edit, delete) : ✅<br>
-style2 (login, sign_up) : ❌ (Reste a les adapté avec les modes claire et sombre)<br>
-

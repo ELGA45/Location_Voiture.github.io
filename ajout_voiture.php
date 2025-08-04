@@ -37,7 +37,7 @@
 
   <main>
     <h2>Ajouter une Voiture</h2>
-    <form method="POST">
+    <form class="form2" method="POST">
       <label for="martricule">Matricule :</label> 
       <input type="text" name="matricule" required value="<?php echo isset($_POST['matricule'])?$_POST['matricule']:""; ?>"><br>
 

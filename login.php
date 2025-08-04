@@ -1,4 +1,5 @@
 <?php
+  require_once 'template.php';
   require_once 'utilisateurEntity.php';
   require_once 'utilisateur.php';
   
@@ -32,23 +33,9 @@
 ?>
 
 
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Connexion</title>
-  <link rel="stylesheet" href="style/style2.css">
-</head>
-<body>
   <div class="form-container">
     <h2>Connexion</h2>
-    <form action="" method="post">
+    <form class="form2" action="" method="post">
       <label for="username">Nom d'utilisateur</label>
       <input type="text" id="username" name="username" required>
 
@@ -64,11 +51,15 @@
       <p class="error-message">Merci de vous conneter</p>
     <?php } ?>
     <div class="link">
-      <p>Pas encore de compte ? <a href="inscription.php">Créer un compte</a></p>
+      <p>Pas encore de compte ? <a href="sign_up.php">Créer un compte</a></p>
     </div>
     <div class="link">
       <p><a href="accueil.php">Retour</a></p>
     </div>
   </div>
-</body>
-</html>
+
+<?php
+  require 'footer.php';
+
+
+

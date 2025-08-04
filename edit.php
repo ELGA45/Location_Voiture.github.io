@@ -51,7 +51,7 @@
   ?>
 
   <main>
-    <form method="POST">
+    <form class="form1" method="POST">
       Matricule: <input type="text" name="matricule" value="<?php echo $editVoiture['matricule'] ?>" required><br>
 
       Couleur: 
@@ -88,8 +88,8 @@
       <select name="modele_id" required>
         <option value="">Sélectionnez un modèle</option>
         <?php foreach($modeles as $mod){ ?>
-          <option value="<?= $mod['id']; ?>" <?= $mod['id'] == $editModele ? 'selected' : '' ?>>
-            <?= $mod['libelle']; ?>
+          <option value="<? $mod['id']; ?>" <? $mod['id'] == $editModele ? 'selected' : '' ?>>
+            <? $mod['libelle']; ?>
           </option>
         <?php } ?>
       </select><br>

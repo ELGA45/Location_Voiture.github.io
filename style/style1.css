@@ -264,6 +264,9 @@ footer span {
 .darkMode h3 {
   color: #b6ecf7;
 }
+.darkMode h4 {
+  color: #b6ecf7;
+}
 .darkMode #trait-haut {
   background-color: #11809c;
 }
@@ -288,7 +291,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
-form {
+.form1 {
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
@@ -305,6 +308,8 @@ form label {
 }
 
 form input[type="text"],
+form input[type="password"],
+form input[type="tel"],
 form select {
     width: 100%;
     padding: 0.5rem;
@@ -373,7 +378,7 @@ table a:hover {
     color: #b6ecf7;
 }
 
-.darkMode form {
+.darkMode .form1 {
     background: #101b20;
     border: 1px solid #11809c;
 }
@@ -383,6 +388,8 @@ table a:hover {
 }
 
 .darkMode form input[type="text"],
+.darkMode form input[type="password"],
+.darkMode form input[type="tel"],
 .darkMode form select {
     background: #082c36;
     color: #b6ecf7;
@@ -425,3 +432,60 @@ table a:hover {
     background-color: #4ccce6;
     color: #082c36;
 }
+
+
+
+
+
+.form-container {
+      background: #f2fafb;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      margin: 0 auto;
+    }
+.form2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+.signup-link {
+      text-align: center;
+      margin-top: 15px;
+      color: #0d3c48;
+    }
+
+    .link a {
+      color: #107d98;
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+      color: #0d3c48;
+    }
+    .error-message {
+      color: red;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+
+
+/* DARK */
+
+.darkMode .form-container {
+    background: #101b20;
+    border: 1px solid #11809c;
+}
+
+.darkMode .link a {
+      color:  #4ccce6;
+      text-decoration: none;
+    }
+
+.darkMode .link a:hover {
+      text-decoration: underline;
+      color: #b6ecf7;
+    }
